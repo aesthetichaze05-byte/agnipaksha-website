@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AGNIPAKSHA | Aerospace Engineering Team</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo-wrapper">
+    <img src="assets/logo.png" alt="AGNIPAKSHA Logo">
+    <span>AGNIPAKSHA</span>
+  </div>
+
+  <nav>
+    <a href="#" class="nav-link active" data-page="home">Home</a>
+    <a href="#" class="nav-link" data-page="capabilities">Capabilities</a>
+    <a href="#" class="nav-link" data-page="mission">Mission</a>
+    <a href="#" class="nav-link" data-page="partners">Partners</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- ================= HOME ================= -->
+<section id="home" class="page active-page">
+
+  <!-- HERO -->
+  <section class="hero">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="assets/motor-test.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <img src="assets/logo.png" alt="AGNIPAKSHA Logo">
+      <h1>AGNIPAKSHA</h1>
+      <p class="subtitle">Student Aerospace Engineering Team</p>
+
+      <p class="tagline-sanskrit">उत्कर्षाय अग्निप्रेरिताः</p>
+      <p class="tagline-english">Driven by fire, towards excellence.</p>
+    </div>
+  </section>
+
+  <!-- TEAM DETAILS -->
+  <section class="section">
+    <h2>Who We Are</h2>
+    <p>
+      AGNIPAKSHA is a student-led aerospace engineering team focused on the
+      design, development, and testing of competition-grade sounding rockets.
+    </p>
+    <p>
+      Our work spans propulsion systems, avionics and telemetry,
+      vehicle structures, and recovery systems, following industry-grade
+      aerospace engineering practices.
+    </p>
+  </section>
+
+  <!-- FOOTER CONTACT -->
+  <footer class="footer-contact">
+    <p>
+      Contact:
+      <a href="mailto:agnipaksha.aero@university.edu">
+        agnipaksha.aero@university.edu
+      </a>
+      ·
+      <a href="https://www.instagram.com/agnipaksha_aero" target="_blank">
+        Instagram
+      </a>
+    </p>
+  </footer>
+
+</section>
+
+<!-- ================= CAPABILITIES ================= -->
+<section id="capabilities" class="page">
+  <section class="section">
+    <h2>Capabilities</h2>
+
+    <div class="cap-grid">
+
+  <div class="cap-block" onclick="toggleCap(this)">
+    <h3>Propulsion Systems</h3>
+    <p class="cap-summary">Solid motors, thrust analysis, static testing</p>
+
+    <div class="cap-details">
+      <ul>
+        <li>Motor selection & certification</li>
+        <li>Thrust curve simulation</li>
+        <li>Static fire test planning & safety</li>
+        <li>Nozzle & grain geometry analysis</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="cap-block" onclick="toggleCap(this)">
+    <h3>Avionics & Telemetry</h3>
+    <p class="cap-summary">Custom flight computers, sensors, telemetry</p>
+
+    <div class="cap-details">
+      <ul>
+        <li>Custom flight computer design</li>
+        <li>Sensor integration (IMU, barometer)</li>
+        <li>Real-time telemetry (LoRa)</li>
+        <li>Ground station software</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="cap-block" onclick="toggleCap(this)">
+    <h3>Structures & Manufacturing</h3>
+    <p class="cap-summary">Airframe design, CAD, simulations</p>
+
+    <div class="cap-details">
+      <ul>
+        <li>Airframe CAD modeling</li>
+        <li>Material selection</li>
+        <li>Structural simulations</li>
+        <li>Manufacturing & assembly</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="cap-block" onclick="toggleCap(this)">
+    <h3>Recovery Systems</h3>
+    <p class="cap-summary">Dual-deployment, reusability</p>
+
+    <div class="cap-details">
+      <ul>
+        <li>Dual-deployment recovery</li>
+        <li>Parachute sizing</li>
+        <li>Deployment electronics</li>
+        <li>Safe reusability</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+  </section>
+</section>
+
+<!-- ================= MISSION ================= -->
+<section id="mission" class="page">
+  <section class="section">
+    <h2>Current Mission</h2>
+    <p>
+      Design, build, and launch a competition-grade sounding rocket
+      targeting <strong>3 km altitude</strong>.
+    </p>
+  </section>
+</section>
+
+<!-- ================= PARTNERS ================= -->
+<section id="partners" class="page">
+  <section class="section">
+    <h2>Industry & Academic Partners</h2>
+    <p>
+      We collaborate with organizations that support student-led
+      aerospace innovation and research.
+    </p>
+  </section>
+</section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
